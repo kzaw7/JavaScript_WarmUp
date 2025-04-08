@@ -2,9 +2,12 @@ Intro to JavaScript
 
 1. Variables and Data Types
 Variables store data and are declared using:
-var (older, function-scoped)
-let (block-scoped, preferred)
-const (for values that don’t change)
+JavaScript Variables can be declared in 4 ways:
+
+1. Automatically
+2. var (older, function-scoped)
+3. let (block-scoped, preferred)
+4. const (for values that don’t change)
 
 
 var name = 'John';
@@ -14,3 +17,20 @@ Data types in JavaScript include:
 Primitive Types: String, Number, Boolean, Undefined, Null, Symbol, BigInt
 Non-Primitive Types: Objects, Arrays, Functions
 
+More Example: 
+var x = 5;
+var y = 6;
+var z = x + y;
+
+let x = 5;
+let y = 6;
+let z = x + y;
+
+const x = 5;
+const y = 6;
+const z = x + y;
+
+Mixed Example
+const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
